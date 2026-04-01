@@ -16,6 +16,7 @@ A terminal welcome dashboard script that prints a styled greeting and quick syst
 Install these tools before running the script:
 
 - bash
+- zsh (optional, only if you use Zsh)
 - figlet
 - bc
 - iproute2 (for the ip command)
@@ -42,6 +43,26 @@ Arch Linux:
 sudo pacman -S --needed figlet bc iproute2
 ```
 
+Optional: install Zsh (only if you plan to use Zsh):
+
+Ubuntu/Debian:
+
+```bash
+sudo apt install -y zsh
+```
+
+Fedora:
+
+```bash
+sudo dnf install -y zsh
+```
+
+Arch Linux:
+
+```bash
+sudo pacman -S --needed zsh
+```
+
 ## Quick Start
 
 From the project root:
@@ -66,6 +87,8 @@ echo '/home/frontier/Downloads/github/iitg-DA107-Greetings/welcome.sh' >> ~/.zsh
 ```
 
 Then open a new terminal window.
+
+Note: You only need Bash or Zsh, depending on the shell you actually use.
 
 ## Customization
 
