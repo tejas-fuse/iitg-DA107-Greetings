@@ -74,21 +74,27 @@ chmod +x welcome.sh
 
 ## Run Automatically On New Terminal
 
+Set your project path first (replace with your actual clone location):
+
+```bash
+PROJECT_DIR="/path/to/iitg-DA107-Greetings"
+```
+
 If you use Bash, append this to your shell startup file:
 
 ```bash
-echo '/home/frontier/Downloads/github/iitg-DA107-Greetings/welcome.sh' >> ~/.bashrc
+echo "\"$PROJECT_DIR/welcome.sh\"" >> ~/.bashrc
 ```
 
 For Zsh:
 
 ```bash
-echo '/home/frontier/Downloads/github/iitg-DA107-Greetings/welcome.sh' >> ~/.zshrc
+echo "\"$PROJECT_DIR/welcome.sh\"" >> ~/.zshrc
 ```
 
 Then open a new terminal window.
 
-Note: You only need Bash or Zsh, depending on the shell you actually use.
+Note: You only need Bash or Zsh, depending on the shell you actually use. Use an absolute path so it works from any directory.
 
 ## Customization
 
