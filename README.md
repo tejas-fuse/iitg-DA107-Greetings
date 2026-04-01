@@ -83,13 +83,13 @@ PROJECT_DIR="/path/to/iitg-DA107-Greetings"
 If you use Bash, append this to your shell startup file:
 
 ```bash
-echo "\"$PROJECT_DIR/welcome.sh\"" >> ~/.bashrc
+echo "cd $PROJECT_DIR && ./welcome.sh" >> ~/.bashrc
 ```
 
 For Zsh:
 
 ```bash
-echo "\"$PROJECT_DIR/welcome.sh\"" >> ~/.zshrc
+echo "cd $PROJECT_DIR && ./welcome.sh" >> ~/.zshrc
 ```
 
 **Or, manually edit your shell configuration file:**
@@ -108,7 +108,7 @@ nano ~/.zshrc
 
 Then add this line to the end of the file:
 ```bash
-/path/to/iitg-DA107-Greetings/welcome.sh
+cd /path/to/iitg-DA107-Greetings && ./welcome.sh
 ```
 (Replace `/path/to/iitg-DA107-Greetings` with your actual project path)
 
