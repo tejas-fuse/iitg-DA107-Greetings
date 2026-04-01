@@ -92,6 +92,28 @@ For Zsh:
 echo "\"$PROJECT_DIR/welcome.sh\"" >> ~/.zshrc
 ```
 
+**Or, manually edit your shell configuration file:**
+
+To make it run every time you open the terminal, you need to add it to your shell configuration file.
+
+If you use Bash (default): 
+```bash
+nano ~/.bashrc
+```
+
+If you use Zsh (Mac or custom): 
+```bash
+nano ~/.zshrc
+```
+
+Then add this line to the end of the file:
+```bash
+/path/to/iitg-DA107-Greetings/welcome.sh
+```
+(Replace `/path/to/iitg-DA107-Greetings` with your actual project path)
+
+Press `Ctrl+O` to save, then `Ctrl+X` to exit.
+
 Then open a new terminal window.
 
 Note: You only need Bash or Zsh, depending on the shell you actually use. Use an absolute path so it works from any directory.
