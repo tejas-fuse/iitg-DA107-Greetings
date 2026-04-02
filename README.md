@@ -11,6 +11,10 @@ A terminal welcome dashboard script that prints a styled greeting and quick syst
 - Live network speed snapshot (download/upload)
 - Recent login activity (last sessions)
 
+## Screenshot
+
+![Welcome dashboard preview](docs/images/welcome-dashboard.png)
+
 ## Requirements
 
 Install these tools before running the script:
